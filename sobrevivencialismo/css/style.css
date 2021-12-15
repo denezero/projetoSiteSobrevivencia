@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   border: 0px;
+  height: auto;
 
 }
 
@@ -14,10 +15,14 @@ body {
   padding-bottom: 115px;
   text-align: center;
   font-size: 2rem;
-  color: #ebe5b5;
   letter-spacing: 0.1rem;
   
  
+}
+.img {
+  background-image: url("../img/xp.jpg");
+  width: 500px;
+  height: 200px;
 }
 
 .banner ul, li {
