@@ -1,3 +1,5 @@
+* {padding: 0;}
+
 body {
   text-align: center;
   font-size:larger;
@@ -18,30 +20,30 @@ h1 {
 .banner {
   background: url("../img/sobrevivencialismoWPP.jpg");
   margin: 0px;
+  image-resolution: ;
   border: 0px;
   padding-top: 115px;
   padding-bottom: 115px;
   text-align: center;
   font-size: 2rem;
   letter-spacing: 0.1rem;
+  background-repeat: no-repeat;
+  
   
  
 }
-.img {
-  background-image: url("../img/xp.jpg");
-  width: 500px;
-  height: 200px;
-}
+
 
 .banner ul, li {
   list-style-type: none;
   display: inline;
   margin: 0;
+  height: fit-content;
 }
 .banner a {
  text-decoration: none;
  /* TOP RIGHT BOTTOM LEFT */
- padding: 500px 150px;
+ padding: 50px 150px;
 }
 .src {
   size: auto;
@@ -49,29 +51,9 @@ h1 {
 }
 
 /* ajuste dos dois sobre sobrevivencialismo.html e sidebar.html*/
-iframe{
-  height:100%;
-  position:absolute
-}
- /*ediçoes de tamanho e cor do  corpos dos link sidebar.html*/
-iframe#sidebar{
-  background-color: #ebe5b5;
-  left:0%;
-  top:35%;
-  height: 400%;
-  width:22%;
-}
-/* ediçoes de temanho e cor do texto central sobrevivencialismo.html */
-iframe#main{
-  background-color: #ebe5b5;
-  left:22.3%;
-  top:35%;
-  height: 400%;
-  width:78.5%;
 
-  
-  
-}
+ /*ediçoes de tamanho e cor do  corpos dos link sidebar.html*/
+
 /* ediçoes do texto */
 .mod {
   padding: 2% 10%;
@@ -82,4 +64,8 @@ iframe#main{
 .mod > h3 {
   text-align: center;
   
+}
+
+.fieldset {
+  text-align: center;
 }
