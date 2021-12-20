@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo">Complete o campo abaixo:</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome"> 
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label>Email</label>
+            <input type="email" nome="email" id="email">
+        </div>
+
+        <div class="campo">
+            <label>De qual lado da aplicação você desenvolve?</label>
+            <label>
+                <input type="radio" name="devweb" value="frontend">Front-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Back-end
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Fullstack
+            </label>
+        </div>
+
+        <div class="campo">
+            <label>Senior idade</label>
+            <select id="senioridade">
+                <option selected disabled value="">Selecione</option> 
+                <option>Junior</optio>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label>Selecione seu(s) campo(s) de interesse(s)</label><br><br>
+                <input type="checkbox" id="Criação de animais" name="Criação de animais" value="Criação de animais">
+                <label for="Criação de animais">Criação de animais</label>
+                <input type="checkbox" id="Construção" name="Construção" value="Construção">
+                <label for="Construção">Construção</label>
+                <input type="checkbox" id="Cultivo de plantas" name="Cultivo de plantas" value="Cultivo de plantas">
+                <label for="Cultivo de plantas">Cultivo de plantas</label>
+            </div>
+        </fieldset>
+
+        <div class="grupo">
+            <br>
+            <label>Conte um pouco da sua experiencia</label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button type="submit">Concluido</button>
+
+
+
+    </form>
+
+</body>
+</html>
