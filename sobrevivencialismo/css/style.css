@@ -1,71 +1,138 @@
-* {padding: 0;}
-
+/* TUDO */
+* {
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* todo body */
 body {
+  margin: 0;
   text-align: center;
   font-size:larger;
   font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #ebe5b5;
+  background-color: #0d6302;
   
 }
-h1 {
-  text-align: center;
-}
-.formt {
-  height: 450px;
-  width: 800px;
+
+/* Banner img  */
+.banner {
+  background: url("../img/indexWPP.png") no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 500px;
+  width: 100%;
 }
 
-/*BASE DE CSS*/
-/* Banner de cima  */
-.banner {
-  background: url("../img/sobrevivencialismoWPP.jpg");
-  margin: 0px;
-  image-resolution: ;
-  border: 0px;
-  padding-top: 115px;
-  padding-bottom: 115px;
+/* HOME FORUM LOJA */
+.menu-principal {
+  margin:0;
+  padding:250px 0;
+  border: 0;
+}
+
+
+/* barra que contem (home forum loja) */
+.menu-principal > li{
+  list-style-type: none;
+  display: inline;
+  margin:0;
+
   text-align: center;
   font-size: 2rem;
   letter-spacing: 0.1rem;
-  background-repeat: no-repeat;
+  text-decoration: none;
+  /* TOP RIGHT BOTTOM LEFT */
+  padding: 0 50px 0 50px;
   
-  
+
+}
+/* ediçoes do (home forum loja) */
+.menu-principal a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+
+/* corpo que ingloba todo conteudo menos banner */
+.corpo {
+  width: 100%;
+  overflow: hidden;
+
+}
+/* block com direcionamento lateral */
+.menu-lateral {
+  width: 250px; 
+  float: left;
+  margin-left: 2.5%;
+
+
+
+}
+.menu-lateral fieldset {
+  border-color: black;
+  background-color: #307523;
+  border-radius: 5px;
+
+
+}
+.menu-lateral hr {
+  border-color: black;
  
 }
-
-
-.banner ul, li {
-  list-style-type: none;
-  display: inline;
-  margin: 0;
-  height: fit-content;
+/* ediçaão da legenda das lista (legend) */
+.menu-lateral legend {
+  color:#307523;
+  border-color: black;
+  border-radius: 8%;
+  border-style:solid;
+  background-color: black;
+  font-weight: 500;
+  font-size: 26px;
 }
-.banner a {
- text-decoration: none;
- /* TOP RIGHT BOTTOM LEFT */
- padding: 50px 150px;
+/* edição dos itens da lista */
+.menu-lateral a {
+  text-decoration: none;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+  font-size: 20px;
+  margin: 5% 0;
+
 }
-.src {
-  size: auto;
-  /* que que da pra botar aqui? */
-}
-
-/* ajuste dos dois sobre sobrevivencialismo.html e sidebar.html*/
-
- /*ediçoes de tamanho e cor do  corpos dos link sidebar.html*/
-
-/* ediçoes do texto */
-.mod {
-  padding: 2% 10%;
-  margin-top: 10%;
-}
-
-/* h1 do sobrevivencialismo.html */
-.mod > h3 {
-  text-align: center;
+/* ediçoes de transiçoes com a borda */
+.menu-lateral a:hover {
+  border-style:solid;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: #0d6302;
+  transition: 0.3s;
+  color: black;
+  background-color: #0d6302;
   
 }
 
-.fieldset {
-  text-align: center;
+
+/* ediçoes do texto Central*/
+.texto-central {
+  padding: 3% 10%;
+  margin-top: 1.5%;
+  text-align:center;
+  margin-left: 25%;
+  margin-right: 3%;
+  color: black;
+  border-style:solid ;
+  border-radius: 5px;
+  background-color: #307523;
+
 }
+/* ediçoes do texto titulos */
+.texto-central > h3 {
+  font-size: 35px;
+  
+}
+
