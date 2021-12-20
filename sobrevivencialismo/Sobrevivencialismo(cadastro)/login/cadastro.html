@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css" media="">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <p id="subtitulo">Complete o campo abaixo:</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label>Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome"> 
+            </div>
+
+            <div class="campo">
+                <label>E-mail:</label>
+                <input type="email" nome="email" id="email">
+            </div>
+        </fieldset>
+
+        <fieldset>
+        <div class="campo">
+            <label>Você é:</label>
+            <label>
+                <input type="radio" name="devweb" value="frontend">Homem
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Mulher
+            </label>
+        </div>
+        </fieldset>
+
+
+        <fieldset class="grupo">
+            <div id="check">
+               <label>Selecione seu(s) campo(s) de interesse(s):</label><br><br> 
+                <input type="checkbox" id="Criação de animais" name="Criação de animais" value="Criação de animais">
+                <label for="Criação de animais">Criação de animais</label>
+                <input type="checkbox" id="Construção" name="Construção" value="Construção">
+                <label for="Construção">Construção</label>
+                <input type="checkbox" id="Cultivo de plantas" name="Cultivo de plantas" value="Cultivo de plantas">
+                <label for="Cultivo de plantas">Cultivo de plantas</label>
+                <input type="checkbox" id="Táticas de sobrevivência" name="Táticas de sobrevivência" value="Táticas de sobrevivência">
+                <label for="Táticas de sobrevivência">Táticas de sobrevivência</label>
+            </div>
+        </fieldset>
+
+       
+
+        <button type="submit">Cadastrar-se</button>
+
+
+
+    </form>
+
+</body>
+</html>
