@@ -5,13 +5,13 @@
 
 #titulo {
     font-family: sans-serif;
-    color: rgb(57, 117, 17);
+    color: rgb(126, 192, 82);
     margin-left: 12%;
 }
 
 #subtitulo {
     font-family: sans-serif;
-    color: rgb(57, 117, 17);
+    color: rgb(126, 192, 82);
     margin-left: 10%;
 }
 
@@ -23,7 +23,7 @@ body{
     background-color: gray;
     font-family: sans-serif;
     font-size: 1em;
-    color: rgb(57, 117, 17);
+    color: rgb(126, 192, 82);
     margin-left: 35%;
     margin-top: 10%;
     justify-content: center;
@@ -39,7 +39,7 @@ input, select, textarea, button{
 
 .campo label{
     margin-bottom: 0.2em;
-    color: rgb(57, 117, 17);
+    color: rgb(126, 192, 82);
     display: block;
 }
 
@@ -60,7 +60,7 @@ fieldset.grupo .campo{
 }
 
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: rgb(57, 117, 17);
+    background: rgb(126, 192, 82);
 }
 
 .botao {
@@ -68,7 +68,7 @@ fieldset.grupo .campo{
     background-color: gray;
     border: 0;
     margin-bottom: 1em;
-    color: rgb(57, 117, 17);
+    color: rgb(126, 192, 82);
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
