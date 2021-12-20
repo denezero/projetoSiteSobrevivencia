@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="formulario.css" media="">
-    <title>Cadastro</title>
-</head>
-<body>
-    
-    <div>
+<div>
         <h1 id="titulo">Cadastro</h1>
         <p id="subtitulo">Complete o campo abaixo:</p>
         <br>
@@ -26,13 +15,14 @@
                 <label>Sobrenome</label>
                 <input type="text" name="sobrenome" id="sobrenome"> 
             </div>
+
+            <div class="campo">
+                <label>E-mail</label>
+                <input type="email" nome="email" id="email">
+            </div>
         </fieldset>
 
-        <div class="campo">
-            <label>E-mail</label>
-            <input type="email" nome="email" id="email">
-        </div>
-
+        <fieldset>
         <div class="campo">
             <label>Você é:</label>
             <label>
@@ -42,6 +32,7 @@
                 <input type="radio" name="devweb" value="backend">Mulher
             </label>
         </div>
+        </fieldset>
 
 
         <fieldset class="grupo">
