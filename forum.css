@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  /* Barra de cadasteo (preto) */
+
+.block {
+    z-index: 50;
+    position: fixed;
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .block > div {
+    float: left;
+    margin-left:16.3%;    
+}
+
+button {
+    color: white;
+    border-style: none;
+    font-size: 30px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: #4db339;
+    margin: 8px;
+    
+}
+button:hover {
+    color: #0d6302;
+
+}
+
+button:active {
+   background-color: #5ed646;
+    border: solid #0d6302 2px;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+ .block a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+  }
+  
+  
+  
+  /* todo body */
+  body {
+    margin: 0;
+    text-align: center;
+    font-size:larger;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0d6302;
+    
+  }
+  
+  /* Banner img  */
+  .banner {
+    background: url("../img/indexWPP.png") no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+  }
+
+  
+/* HOME FORUM LOJA */
+.menu-principal {
+    margin:0;
+    padding:250px 0;
+    border: 0;
+    }
+      
+
+    
+  h1{
+    font-size:16px;
+    font-weight: bolder;
+  }
+  .textoe {
+    margin: 3% 12%;
+    padding: 5% 5%;
+    font-size: 26px;
+    border-style: solid;
+    background-color: #307523;
+    text-align: center;
+    
+}
+.textoe li or ul{
+    text-align: start;
+}
+
+
+.textoe  img {
+    background-position-x: center;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 850px; 
+    max-height: 600px;
+    min-height: 300px;
+    
+
+}
+
+  
+  /* HOME FORUM LOJA */
+  
+  
+  /* forum */
+  /*
+  .container{
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .subforum{
+    margin-top:20px;
+  }
+  
+  .subforum-title{
+    background-color:#292B2E;
+    padding: 5px;
+    border-radius: 5px;
+    margin:4px;
+  }
+  
+  .subforum-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+  }
+  
+  .subforum-column{
+    padding: 10px;
+    margin:4px;
+    border-radius: 5px;
+    background-color:#03770c;
+  }
+  
+  .subforum-description *{
+    margin-block: 0;
+  }
+  
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subforum-icon i{
+    font-size: 45px;
+  }
+  
+  .subforum-devider{
+    display: none;   
+  }
+  */
+  
