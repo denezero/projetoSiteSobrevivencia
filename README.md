@@ -1,2 +1,3 @@
-# Projeto-Site-Sobrevivencia
-Projeto site de sobrivencialismo  
+# Projeto Site Sobrevivencia
+
+Front-end do site não colocar Spring Boot
