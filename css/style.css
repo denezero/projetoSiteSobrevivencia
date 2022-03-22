@@ -1,0 +1,201 @@
+﻿/* TUDO */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+
+}
+::selection {
+  color: white;
+  background-color: #307523;
+}
+
+/* todo body */
+body {
+  margin: 0;
+  text-align: center;
+  font-size:larger;
+  font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(#307523,#0d5220);
+  
+  
+}
+/* barra com navegaçoes principais (ex: Forum,loja,Cadastro e login */
+.block {
+  z-index: 50;
+  position: fixed;
+  height: 80px;
+  background-color: black;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.block > li {
+  display: inline;
+  margin-left: 5vw;
+
+
+}
+.block  a{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  
+  
+
+}
+.block > li > a {
+  margin: 6vw;
+}
+
+/* Botão de cadastro*/
+.b1 {
+  color: white;
+  border: solid 2px ;
+  font-size: 30px;
+  padding: 1.2vh;
+  border-radius: 5px;
+  background-color: #4db339;
+  margin: 0.5vw 1vw 1vw 1vw;
+  float: right;
+  
+
+  
+}
+.b1:hover {
+  color: #0d6302;
+
+}
+
+.b1:active {
+  background-color: #5ed646;
+  border: solid #0d6302;
+  border-radius: 5px;
+
+}
+
+/* Banner img  */
+.banner {
+  background: url("./../img/floretagrande.jpg") no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  height: 65vh;
+}
+
+/* HOME FORUM LOJA */
+.menu-principal {
+  padding:250px 0;
+}
+
+
+/* barra que contem (home forum loja) */
+.menu-principal > a{
+  text-decoration: none;
+  border: white;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  /* TOP RIGHT BOTTOM LEFT */
+  padding: 0 50px 0 50px;
+  color: black;
+  font-weight: 800;
+  font-size: 40px;
+  
+
+}
+
+
+
+/* block com direcionamento lateral */
+.menu-lateral {
+  
+  width: 250px; 
+  float: left;
+  margin-left: 2.5%;
+ 
+
+
+
+}
+.menu-lateral fieldset {
+  border: 2px solid black;
+  background-color: #307523;
+  border-radius: 5px;
+  color:white;
+  margin: 0 0 2% 0;
+
+}
+/* ediçaão da legenda das lista (legend) */
+.menu-lateral legend {
+  border: 2px black solid;
+  border-radius: 6px;
+  color:#307523;
+  background-color: black;
+  padding: 0 2%;
+  font-weight: 500;
+  font-size: 26px;
+  color: white;
+}
+/* edição dos itens da lista */
+.menu-lateral a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+  font-size: 20px;
+  margin: 10% 0;
+
+}
+/* ediçoes de transiçoes com a borda */
+.menu-lateral a:hover {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.3s;
+  color: black;
+  background-color: #0d6302;
+}
+/* corpo que ingloba todo conteudo menos banner */
+.corpo {
+  width: 100%;
+  overflow: hidden;
+  color: white;
+
+}
+
+/* ediçoes do texto Central*/
+.texto-central{
+  padding: 3% 10%;
+  margin-top: 1.5%;
+  text-align:center;
+  margin-left: 25%;
+  margin-right: 3%;
+  color:white;
+  border:solid black 2px ;
+  border-radius: 5px;
+  background-color: #307523;
+  
+}
+
+/* ediçoes do texto titulos */
+.texto-central > h3 {
+  font-size: 35px;
+  
+}
+
+/* login textoe */
+
+.grupform {
+  margin: 3% 12%;
+  padding: 5% 5%;
+  font-size: 26px;
+  border-style: solid;
+  background-color: #307523;
+  text-align: center;
+  color:white;
+  
+
+}
