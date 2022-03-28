@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 2% 2% 2% 1%;
+}
+
+#titulo {
+    font-family: sans-serif;
+    margin-left: 12%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+
+/* fieldset {
+    border: 0;
+} */
+
+fieldset{
+    display: grid;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 1em; */
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    justify-content: center;
+    color: black;
+}
+
+/* input, select, textarea, button{
+    border-radius: Spx;
+} */
+
+.todo {
+    padding: 1rem;
+    /* margin-bottom: 1em; */
+    /* text-align: center; */
+}
+
+.todo label{
+    /* margin-bottom: 0.2em; */
+    /* color: black; */
+    display: block;
+}
+
+
+
+.todo input[type="text"], .todo input[type="password"], .todo input[type="email"], .todo select, .todo textarea {
+    padding: 0.2em;
+    /* border: 1px solid gray; */
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    /* display: block; */
+}
+
+.todo select option{
+    padding-right: 1em;
+}
+
+
+
+.botao {
+    background-color: #307523;
+    font-size: 1.2em;
+    border: 0;
+    /* margin-bottom: 1em; */
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: static;
+    top: 90%;
+    left: 50%;
+    margin-right: -10%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: hsl(110, 54%, 15%);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    /* text-shadow: none; */
+}
+
+
+#check{
+    /* display: inline-block; */
+}
