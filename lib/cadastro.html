@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" media="">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <ul class="block"> 
+            <li> 
+                <a href="forum.html">Forum</a>
+                
+            </li>
+            <li>
+                <button class="b1"> <a href="./login.html">Login</a></button>
+            </li>
+            
+        </ul>
+        <div class="banner">
+            <div class="menu-principal">
+
+            </div>
+
+        </div>
+
+   </header>
+   <fieldset>
+    <!-- <form class="todo">
+        <h1 style="font-size:large">Cadastre-se para ter acesso ao nosso fórum!</h1>
+        <div class="nome">
+            <label>Nome</label>
+            <input type="text" name="nome">
+        </div>
+        <div class="campo">
+            <label>E-mail</label>
+            <input type="email" name="email">
+        </div>
+        <div class="senha">
+            <label>Senha</label>
+            <input type="password" name="senha">
+        </div> -->
+
+        <form id=inputt>
+            <label>Usuário </label><br>
+            <input placeholder=username type="username" id="username" name=ursename required><br>
+            <label>E-mail </label><br>
+            <input placeholder=Email type="email" id="inemail" name=inemail required><br>
+            <label>Senha </label><br>
+            <input type="password" id="inpassoword" name="inpassoword" required><br>
+            <input type="radio" id="feminino" name=genero value="feminino">
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="masculino" name=genero value="Masculino" required>
+            <label for="Masculino">Masculino<br>
+
+            
+        </form>
+
+        <br><div></div>
+        
+        
+        <div class="tipos" style="text-align: center;">
+            <label style="font-family:Verdana, Geneva, Tahoma, sans-serif;text-align: center;" >Selecione um campo de interesse:</label><br><br>
+            <select name="tipos" multiple="multiple" id="">
+                <option value="1">Criação de animais</option>
+                <option value="2">Construção</option>
+                <option value="3">Cultivo de plantas</option>
+                <option value="4">Táticas de sobrevivência</option>
+            </select>
+           
+        </div>
+        <br>
+        <div></div>
+        <button style="margin: 2px;" onclick="cadastro()">Cadastra-se </button><br>
+        
+    </form>
+    <br>
+    
+   </fieldset>
+
+</body>
+</html>

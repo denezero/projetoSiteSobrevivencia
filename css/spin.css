@@ -1,0 +1,92 @@
+.usertext .help-toggle, .usertext a.reddiquette {
+    font-size: smaller;
+    float: right;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.md-container-small, .md-container {
+    unicode-bidi: isolate;
+    font-size: small;
+}
+.usertext {
+    font-size: small;
+}
+.roundfield {
+    width: 500px;
+    background-color: #cee3f8;
+    border-radius: 4px;
+    padding: 5px 10px 10px 10px;
+    font-size: large;
+}
+
+.toggle .option.active {
+    display: inline;
+}
+.toggle .option {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #369;
+}
+folha de estilo do user agent
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.md>:last-child, .md .-cells>:last-child, .md .-lists>:last-child, .md .-blocks>:last-child, .md .-headers>:last-child, .md h1>:last-child, .md h2>:last-child, .md h3>:last-child, .md h4>:last-child, .md h5>:last-child, .md h6>:last-child, .md th>:last-child, .md td>:last-child, .md ul>:last-child, .md ol>:last-child, .md .-lists>:last-child, .md pre>:last-child, .md blockquote>:last-child, .md table>:last-child, .md p>:last-child, .md ul>:last-child, .md ol>:last-child {
+    margin-bottom: 0;
+}
+
+.md>:first-child, .md .-cells>:first-child, .md .-lists>:first-child, .md .-blocks>:first-child, .md .-headers>:first-child, .md h1>:first-child, .md h2>:first-child, .md h3>:first-child, .md h4>:first-child, .md h5>:first-child, .md h6>:first-child, .md th>:first-child, .md td>:first-child, .md ul>:first-child, .md ol>:first-child, .md .-lists>:first-child, .md pre>:first-child, .md blockquote>:first-child, .md table>:first-child, .md p>:first-child, .md ul>:first-child, .md ol>:first-child {
+    margin-top: 0;
+}
+.md * {
+    margin-left: 0;
+    margin-right: 0;
+}
+folha de estilo do user agent
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.md {
+    font-size: 1.0769230769230769em;
+}
+.md, .md h6 {
+    font-weight: 400;
+}
+.md {
+    color: #222222;
+    max-width: 60em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+table {
+    border-collapse: collapse;
+}
+folha de estilo do user agent
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+.md-container-small, .md-container {
+    unicode-bidi: isolate;
+    font-size: small;
+}
+.usertext {
+    font-size: small;
+}
+.roundfield {
+    width: 500px;
+    background-color: #cee3f8;
+    border-radius: 4px;
+    padding: 5px 10px 10px 10px;
+    font-size: large;
+}
+

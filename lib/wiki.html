@@ -1,0 +1,160 @@
+<!-- NÃO APLICADO AINDA -->
+
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<h2 id="wiki_line_breaks">Line Breaks</h2>
+<p>Individual line breaks are ignored, so if you type:</p>
+<blockquote>
+<p>Hu Ha Hu Ha Hu Ha Hu Ha<br>
+Eh Meh Eh Meh Eh Meh Eh Meh</p>
+</blockquote>
+<p>...you get:</p>
+<blockquote>
+<p>Hu Ha Hu Ha Hu Ha Hu Ha Eh Meh Eh Meh Eh Meh Eh Meh</p>
+</blockquote>
+<p>To display a line break in your post, put two spaces at the end of the line, or use a double line break to start a new paragraph.</p>
+<h2 id="wiki_inserting_a_blank_line">Inserting a Blank Line</h2>
+<p>To insert a blank line, use the double line break mentioned above and put "<code>&amp;nbsp;</code>", then another double line break, will enter a single blank line:</p>
+<pre><code>First Line&lt;Enter&gt;
+&lt;Enter&gt;
+
+&amp;nbsp;&lt;Enter&gt;
+
+&lt;Enter&gt;
+Second Line
+</code></pre>
+<h2 id="wiki_commenting">Commenting</h2>
+<p>You can post comments on any reddit link, and read comments that other people have posted. You can even vote on them! Just like links, comments rise and fall in the rankings as people vote on them. The more Upvotes you get, the more your Comment Karma will go up.</p>
+<h2 id="wiki_reading">Reading</h2>
+<p>reddit uses <a href="http://en.wikipedia.org/wiki/Threaded_discussion" rel="nofollow">threaded</a> comments — when you reply to someone's comment, it gets indented below it. **Collapse an entire comment tree by clicking the [–] on the first line of the parent comment.</p>
+<h2 id="wiki_posting">Posting</h2>
+<p>You can format your comments using the <a href="http://daringfireball.net/projects/markdown" rel="nofollow">Markdown</a> syntax. Here is a quick reference table:</p>
+<p></p><table>
+<tbody><tr>
+<td>you type:</td>
+<td>you see:</td></tr>
+<tr>
+<td><code>*italics*</code></td>
+<td><em>italics</em></td></tr>
+<tr>
+<td><code>**bold**</code></td>
+<td><strong>bold</strong></td></tr>
+<tr>
+<td><code>super^script</code></td>
+<td>super<sup>script</sup></td></tr>
+<tr>
+<td><code>~~strikethrough~~</code></td>
+<td><del>strikethrough</del></td></tr>
+<tr>
+<td><code>&gt;!spoiler!&lt;</code></td>
+<td><span class="md-spoiler-text">spoiler</span></td></tr>
+<tr>
+<td><code>[reddit!](http://reddit.com)</code></td>
+<td><a href="http://reddit.com" rel="nofollow">reddit!</a></td></tr>
+<tr>
+<td><code>(tab or 4 spaces)preformatted text</code> <em>Requires a blank line between the code and any normal text above.</em></td>
+<td><code>preformatted text</code></td></tr>
+<tr>
+<td>blah blah `inline code text` blah blah</td>
+<td>blah blah <code>inline code text</code> blah blah</td></tr>
+<tr>
+<td>\*escape the formatting syntax\*</td>
+<td>*escape the formatting syntax*</td>
+</tr>
+</tbody></table><p></p>
+<p>This table can also be accessed from any comment box by clicking the "help" link.</p>
+<p>Superscripted text can also be enclosed in parentheses. Text inside the parentheses can include spaces and text after the closing parenthesis will not be superscripted, even if not separated by a space:</p>
+<p></p><table>
+<tbody><tr>
+<td>This is a sentence^(This is a note in superscript).</td>
+<td>This is a sentence<sup>This is a note in superscript</sup>.</td>
+</tr>
+</tbody></table><p></p>
+<p>For more advanced syntax options, see the <a href="http://daringfireball.net/projects/markdown/syntax" rel="nofollow"> Official Markdown Syntax</a>.</p>
+<p>Or this popular user-created <a href="http://www.reddit.com/r/reddit.com/comments/6ewgt/reddit_markdown_primer_or_how_do_you_do_all_that/c03nik6" rel="nofollow"> Markdown primer</a>.</p>
+<h2 id="wiki_quotes">Quotes</h2>
+<p>&nbsp;&gt; A fine quote</p>
+<p>is displayed as</p>
+<blockquote>
+<p>A fine quote</p>
+</blockquote>
+<h2 id="wiki_tables">Tables</h2>
+<p>You can create a table by organizing pipes (|), hyphens (-) and text within a particular syntax. For example, inputting this:</p>
+<p><code>Column A | Column B | Column C</code><br>
+<code>---------|----------|----------</code><br>
+<code>A1 | B1 | C1</code><br>
+<code>A2 | B2 | C2</code> </p>
+<p>will display this:</p>
+<table><thead>
+<tr>
+<th>Column A</th>
+<th>Column B</th>
+<th>Column C</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>A1</td>
+<td>B1</td>
+<td>C1</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>B2</td>
+<td>C2</td>
+</tr>
+</tbody></table>
+<p>To change the alignment of the elements in a column, add a colon (:) to the left side, right side, or both sides of the appropriate set of hyphens on the second line. For example, inputting this:</p>
+<p><code>Column L | Column C | Column R</code><br>
+<code>:--------|:--------:|---------:</code><br>
+<code>A1 | B1 | C1</code><br>
+<code>A2 | B2 | C2</code> </p>
+<p>will display this:</p>
+<table><thead>
+<tr>
+<th align="left">Column L</th>
+<th align="center">Column C</th>
+<th align="right">Column R</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left">A1</td>
+<td align="center">B1</td>
+<td align="right">C1</td>
+</tr>
+<tr>
+<td align="left">A2</td>
+<td align="center">B2</td>
+<td align="right">C2</td>
+</tr>
+</tbody></table>
+<p>Note that in both cases, only one hyphen is needed between the pipes on the second line, and no spaces are needed to separate table elements from pipes on the third and fourth lines. Adding multiple hyphens and spaces may be useful for clarity, but they will not affect the final layout.</p>
+<p>Lines with table syntax can be preceded with pipe characters, but this is entirely optional.</p>
+<p>Be warned: pressing enter twice and putting blank lines between lines with table syntax will break table formatting.</p>
+<h2 id="wiki_common_issues">Common issues</h2>
+<h3 id="wiki_numbering">Numbering</h3>
+<p>If a number is followed by a period at the beginning of a line, Markdown interprets it as a numbered list and always starts at one. For example, if you typed "2009. What a year.", it will output as "1. What a year." To fix this, put a backslash in front of the period: "2009\. What a year."</p>
+<h3 id="wiki_links_with_special_characters">Links with special characters</h3>
+<p>An issue affects links to Wikipedia and websites with similar URLs. To link to:</p>
+<blockquote>
+<p><a href="http://en.wikipedia.org/wiki/Pica_(disorder)" rel="nofollow">http://en.wikipedia.org/wiki/Pica_(disorder)</a></p>
+</blockquote>
+<p>escape the problematic characters "(" and ")" by adding backslashes in front:</p>
+<blockquote>
+<p><a href="http://en.wikipedia.org/wiki/Pica_%5C(disorder%5C)" rel="nofollow">http://en.wikipedia.org/wiki/Pica_\(disorder\)</a></p>
+</blockquote>
+<p>The same applies to named links:</p>
+<p><code>[Pica (disorder)](http://en.wikipedia.org/wiki/Pica_\(disorder\))</code></p>
+<p>renders as:</p>
+<p><a href="http://en.wikipedia.org/wiki/Pica_(disorder)" rel="nofollow">Pica (disorder)</a></p>
+</div> -->

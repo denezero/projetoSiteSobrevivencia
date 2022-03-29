@@ -1,0 +1,49 @@
+
+.bloco1 {
+    padding-right: 2000px;
+    
+    
+}
+
+.bloco2 {
+    padding-right: 2000px;
+}
+
+.desc {
+    background-color:black;
+    margin:0 3vw 2 3vw;
+
+    
+}
+.desc a {
+    color: red;
+    list-style-type: none;
+    font-size: 24px;
+    transition: 1ms;
+    text-decoration:none;
+    padding: 2px 2px 2px 9vw;
+
+
+    
+}
+.desc li {
+    display:inline;
+    /* border-spacing: 9vw; */
+
+}
+
+.desc li:hover {
+    font-size: 24px;
+
+    color: rgb(224, 224, 224);
+    background-color: #0f5800;
+    
+    
+}
+@media only screen and (max-width: 1250px) {
+    .desc li {
+        display:inline;
+        letter-spacing: 2vw;
+    
+    }
+  }
