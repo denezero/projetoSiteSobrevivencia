@@ -14,3 +14,16 @@ function selection() {
     var sele
 }
 
+
+    function onvisible() {
+        var s = window.document.getElementById("d");
+        s.style.visibility="visible"
+    }
+    
+
+    function offisible() {
+        var s = window.document.getElementById("d");
+        s.style.visibility="hidden" 
+    }
+    
+

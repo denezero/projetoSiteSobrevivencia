@@ -16,6 +16,7 @@ h1 {
 
 /* todo body */
 body {
+  color: white;
   margin: 0;
   text-align: center;
   font-size:larger;
@@ -202,3 +203,47 @@ body {
   
 
 }
+/* loja */
+.navegação > a {
+  margin: 0 2%;
+  color: white;
+  text-decoration: none;
+  display: inline;
+
+}
+
+
+
+.img3  {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.img3 > div {
+  margin: 5%;
+}
+img {
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+
+.img3 > div:hover > img {
+ 
+  height: 40vh;
+  width: 50vh;
+  transition: 1s;
+}
+
+#d {
+  width: 300px;
+  height: 50px;
+  margin: 0 6%;
+  visibility: hidden;
+  
+}
+
+
+
+
